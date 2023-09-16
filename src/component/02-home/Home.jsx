@@ -101,7 +101,7 @@ const Home = () => {
         <h3 className='subtitle'>TU TECNICO DE CONFIANZA</h3>
       <div className='container-button-home'>
         {
-          tuTurno?
+          tuTurno === 0?
             <button className='button1' 
               onClick={openModal}
             >

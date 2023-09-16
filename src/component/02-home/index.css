@@ -424,7 +424,7 @@
     display: flex;
     justify-content: center;
     margin-top: 0;
-    font-size:6em;
+    font-size:100%;
     color:#003048;
     letter-spacing: 1px;
     font-weight:700;

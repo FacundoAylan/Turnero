@@ -148,7 +148,7 @@
   .modal1 label {
     color: white;
     font-weight: bold;
-    margin: 0.5%;
+    margin: 1%;
   }
   .modal1 input {
     width: 90%;
@@ -184,7 +184,7 @@
     background-color: red;
     transition: border-color 0.25s;
     color: white;
-    margin: 1%;
+    margin: 2%;
   }
   .confirmar{
     border-radius: 8px;
@@ -197,7 +197,7 @@
     color: white;
     cursor: pointer;
     transition: border-color 0.25s;
-    margin: 1%;
+    margin: 2%;
   }
   .modal2 {
     position: absolute;

@@ -408,7 +408,7 @@
     position: absolute;
     z-index: 1;
     color: rgba(255, 255, 0, 0.767);
-    top: 2%;
+    top: 2.5%;
     left: 30%;
     font-size: 310px;
   }
@@ -548,7 +548,7 @@
   }
   .modal1 input {
     width: 50%;
-    height: 5%;
+    height: 10%;
     border: 2px solid #06eae4;
     border-radius: 12px;
     padding-left: 1%;
@@ -562,7 +562,7 @@
   }
   .modal1 select {
     width: 51.5%;
-    height: 6%;
+    height: 11%;
     border: 2px solid #06eae4;
     border-radius: 12px;
     padding-left: 1%;

@@ -10,6 +10,49 @@
   position: relative;
   overflow: hidden;
 }
+@media screen and (max-width: 480px){
+  .fondo {
+    position: absolute;
+    z-index: 1;
+    color: rgba(255, 255, 0, 0.767);
+    top: 6%;
+    left: 30%;
+    size: 250
+  }
+  .area{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    font-size:1em;
+    color:#003048;
+    letter-spacing: 1px;
+    font-weight:700;
+    text-transform:uppercase;
+    text-shadow:0px 0px 1px #eeedeb,
+    0px 0px 1px #f7f8f3, 
+    0px 0px 25px #06eae4,
+    0px 0px 0px #06eae4,
+    0px 0px 0px #06eae4,
+    0px 0px 0px #06eae4,
+    0px 0px 0px #06eae4,
+    0px 0px 25px #06eae4,
+    0px 0px 30px #06eae4,
+    0px 0px 50px #06eae4,
+    0px 0px 50px #0254f6,
+    0px 0px 150px #0254f6,
+    0px 10px 100px #0254f6,
+    0px 10px 100px #0254f6,
+    0px 10px 100px #0254f6,
+    0px 10px 100px #0254f6,
+    0px -10px 100px #0254f6,
+    0px -10px 100px #0254f6;
+    -webkit-text-stroke: 1px white;
+    animation: home 2s ease 1;
+  }
+}
 
 .fondo {
   position: absolute;
@@ -17,6 +60,7 @@
   color: rgba(255, 255, 0, 0.767);
   top: 6%;
   left: 30%;
+  size: 500
 }
 
 .area{

@@ -213,7 +213,7 @@
     animation-fill-mode: forwards; 
     opacity: 0;
     width: auto;
-    height: 50%;
+    height: 40%;
     overflow:hidden;
     position: relative;
     color: white;
@@ -242,8 +242,8 @@
     border-radius:100%;
     background-color:red;
     font-weight:bold;
-    margin-left:94%;
-    margin-top: 1%
+    margin-left:92%;
+    margin-top: 2%
   }
   .ticket {
     overflow: hidden;

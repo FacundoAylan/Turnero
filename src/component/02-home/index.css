@@ -609,7 +609,7 @@
     animation-fill-mode: forwards; 
     opacity: 0;
     width: auto;
-    height: 50%;
+    height: auto;
     overflow:hidden;
     position: relative;
     color: white;

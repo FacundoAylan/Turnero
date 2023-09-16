@@ -17,7 +17,7 @@
     color: rgba(255, 255, 0, 0.767);
     top: 6%;
     left: 30%;
-    size: 250
+    size: 250px
   }
   .area{
     position: absolute;
@@ -60,7 +60,7 @@
   color: rgba(255, 255, 0, 0.767);
   top: 6%;
   left: 30%;
-  size: 500
+  size: 500px
 }
 
 .area{

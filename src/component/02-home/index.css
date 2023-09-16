@@ -641,7 +641,7 @@
     background-color: #f0f0f0;
     padding: 15px;
     width: 150px;
-    height: 80%;
+    height: 60%;
     text-align: center;
     margin: 0 auto;
     border: 1px solid black;
@@ -651,21 +651,13 @@
   }
   .flecha	{
     position: absolute;
-    padding: 0;
-    width: 98px;
-    height: 10px;
-    margin-left: -0.2%;
-    background-color: red;
-    transform: rotate(165deg);
+    z-index: -10;
+    opacity: 0;
   }
   .flecha2{
     position: absolute;
-    padding: 0;
-    width: 96px;
-    height: 10px;
-    background-color: red;
-    left: 39%;
-    transform: rotate(-165deg);
+    z-index: -10;
+    opacity: 0;
   }
   
   .ticket h2 {
@@ -682,7 +674,7 @@
     margin-top: 1%;
   }
   .mensaje {
-    margin-top: 1%;
+    margin-top: 0.5%;
   }
   .cancelar {
     width: 25%;
@@ -695,7 +687,7 @@
     background-color: red;
     cursor: pointer;
     color: white;
-    margin-top: 1%;
+    margin-top: 0.5%;
   }
   
   .cambio{

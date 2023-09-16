@@ -10,7 +10,7 @@
   position: relative;
   overflow: hidden;
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 479px){
   .fondo {
     position: absolute;
     z-index: 1;
@@ -403,7 +403,7 @@
   }
   
 }
-@media screen and (min-width:481px) and (max-width: 767px) {
+@media screen and (min-width:480px) and (max-width: 767px) {
   .fondo {
     position: absolute;
     z-index: 1;

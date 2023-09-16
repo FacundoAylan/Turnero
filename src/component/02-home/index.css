@@ -323,6 +323,8 @@
     left: 3%;
     top: 3%;
     z-index: 5;
+    width: 25%;
+    height: auto;
   }
   .cambio2{
     position: absolute;
@@ -338,6 +340,8 @@
     left: 3%;
     top: 15%;
     cursor: pointer;
+    width: 25%;
+    height: auto;
   }
   .info{
     position: absolute;

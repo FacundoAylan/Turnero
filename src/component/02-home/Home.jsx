@@ -100,12 +100,14 @@ const Home = () => {
         <h1 className='area'>Franco Ortíz</h1>
         <h3 className='subtitle'>TU TECNICO DE CONFIANZA</h3>
       <div className='container-button-home'>
-        <button className={tuTurno >0? 'button-null':'button1'} 
-          disabled={tuTurno > 0? true : false}
-          onClick={openModal}
-        >
-          Pedir Turno
-        </button>
+        {
+          tuTurno?
+            <button className='button1' 
+              onClick={openModal}
+            >
+              Pedir Turno
+            </button>:null
+        }
         {
           verTurno?
           <button onClick={openModalTurno} className='button2'

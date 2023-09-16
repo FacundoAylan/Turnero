@@ -112,7 +112,7 @@ const Home = () => {
           verTurno?
           <button onClick={openModalTurno} className='button2'
           >Ver Turno
-          </button>: ''
+          </button>: null
         }
       </div>
 

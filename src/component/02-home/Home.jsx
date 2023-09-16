@@ -96,7 +96,7 @@ const Home = () => {
   console.log(clienteInfo.servicios)
   return (
     <div className='container-home'>
-        <BsTools  className='fondo'/>
+        <BsTools size={500} className='fondo'/>
         <h1 className='area'>Franco Ortíz</h1>
         <h3 className='subtitle'>TU TECNICO DE CONFIANZA</h3>
       <div className='container-button-home'>

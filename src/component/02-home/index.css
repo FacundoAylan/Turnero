@@ -85,7 +85,7 @@
     height: auto;
     display: flex;
     justify-content: center;
-    top: 55%;
+    top: 56%;
     animation: buttonHome 2s ease 1;
   }
   @keyframes buttonHome {

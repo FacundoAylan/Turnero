@@ -322,6 +322,7 @@
     transition: border-color 0.25s;
     left: 3%;
     top: 3%;
+    z-index: 5;
   }
   .cambio2{
     position: absolute;

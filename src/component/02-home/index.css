@@ -148,7 +148,7 @@
   .modal1 label {
     color: white;
     font-weight: bold;
-    margin: 1%;
+    margin: 2%;
   }
   .modal1 input {
     width: 90%;
@@ -184,7 +184,7 @@
     background-color: red;
     transition: border-color 0.25s;
     color: white;
-    margin: 2%;
+    margin: 3%;
   }
   .confirmar{
     border-radius: 8px;
@@ -197,7 +197,7 @@
     color: white;
     cursor: pointer;
     transition: border-color 0.25s;
-    margin: 2%;
+    margin: 3%;
   }
   .modal2 {
     position: absolute;
@@ -218,6 +218,11 @@
     position: relative;
     color: white;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
   }
   @keyframes slideDown {
     0% {

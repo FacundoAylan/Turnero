@@ -50,10 +50,11 @@ const Home = () => {
     setTurno(false)
     setVerTurno(false)
     setInfo({
-      ...clienteInfo,
-      servicios: []
-    }
-    )
+      nombre:'',
+      telefono:'',
+      dirección:'',
+      servicios:[]
+    })
   }
   const cambio = () => {
     setNumberTurno(numberTurno+1)

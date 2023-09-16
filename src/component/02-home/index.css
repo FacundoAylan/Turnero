@@ -131,9 +131,9 @@
     width:100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items:center;
     background-color:#196296;
-    padding-top: 40%;
   }
   .modal-prev {
     position: absolute;
@@ -151,7 +151,7 @@
     margin: 0.5%;
   }
   .modal1 input {
-    width: 70%;
+    width: 90%;
     height: 5%;
     border: 2px solid #06eae4;
     border-radius: 12px;
@@ -165,7 +165,7 @@
     font-weight: bold;
   }
   .modal1 select {
-    width: 51.5%;
+    width: 91.5%;
     height: 6%;
     border: 2px solid #06eae4;
     border-radius: 12px;
